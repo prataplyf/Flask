@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css'  href="{{ url_for('static', filename='style.css')}}">
+    <title>booking</title>
+</head>
+<body>
+   <form method = "POST" class="formstyle" >
+            <fieldset id="borderfrom">
+                <table>
+                    <tr><td><font color='white'>Name</font></td><td><input type="text" name="name"/></td></tr>
+                    <tr><td><font color='white'>Email</font></td><td><input type="text" name="email"/></td></tr>
+                    <tr><td><font color='white'>Contact Nunmber</font></td><td><input type="text" name="contact"/></td></tr>
+                    <tr><td><font color='white'>SkypeID</font></td><td><input type="text" name="skypeID"/></td></tr>
+                    <tr><td><font color='white'>Date</font></td><td><input type="text" name="date"/></td></tr>
+                    <tr><td><font color='white'>Timeslot</font></td><td><input type="text" name="timeslot"/></td></tr>
+                    
+                    <tr><td><input type = "submit" value = "Booking" /></td></tr>                
+                </table>
+            </fieldset>
+      
+    </form>
+</body>
+</html>

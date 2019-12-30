@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css'  href="{{ url_for('static', filename='style.css')}}">
+    <title>Login-WSS</title>
+</head>
+<body>
+   <form method = "POST" class="formstyle">
+            <fieldset id="borderfrom">
+            <table>
+                <tr><td>Email</td></tr>
+                <tr><td> <input type ="text" name = "lmail" placeholder="Enter Email" required /></td></tr>
+                <tr><td>Password</td></tr>
+                <tr><td> <input type ="text" name = "lpassword" placeholder="Enter Password" required /></td></tr>
+                
+                <tr><td><input type = "submit" value = "Login" /></td></tr>
+            </table>
+            </fieldset>
+      </form>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css'  href="{{ url_for('static', filename='style.css')}}">
+    <title>dash</title>
+</head>
+<body>
+    <form action = 'register' method = "POST">
+        <p> Welcome! </p>
+        <p>Click here for <a href="{{ url_for('register') }}"> Registration </a> Page</p>
+        <p>Click here for <a href="{{ url_for('login') }}"> Login </a> Page</p>
+        <p>Click here for <a href="{{ url_for('passupdate') }}"> Password </a> Page</p>
+        <p>Click here for <a href="{{ url_for('delete') }}"> Delete </a> Page</p>
+        <p>Click here for <a href="{{ url_for('reactivate') }}"> Re-activate </a> Account Page</p>
+        <p>Click here for <a href="{{ url_for('booking') }}"> Booking </a> Timeslot Page</p>
+        <p>Click here to show <a href="{{ url_for('getbooking') }}"> Booked </a> Date Page</p>
+
+    </form>
+</body>
+</html>
